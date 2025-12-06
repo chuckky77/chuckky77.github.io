@@ -1,4 +1,119 @@
-.big-text {
-    font-size: 48px;
-    color: #4A90E2;
+body {
+    background-image: url("bg.jpg");
+}
+
+.head {
+    font-family: "Science Gothic", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0,
+        "wdth" 100,
+        "CTRS" 0;
+    font-size: 25px;
+    color: rgb(0, 253, 253);
+    margin: 3px 0px 0px 30px;
+}
+
+.container1 {
+    background-color: rgb(255, 255, 255, 0.4);
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 25px;
+    position: fixed;
+    width: 1325px;
+}
+
+.subhead {
+   font-size: 20px;
+   color: darkblue;
+   display: flex;
+}
+
+.bar {
+    column-gap: 40px;
+    display: flex;
+    margin: 3px 20px 0px 3px;
+    font-family: "Science Gothic", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0,
+        "wdth" 100,
+        "CTRS" 0;
+}
+
+.container2 {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 200px;
+}
+
+.name1 {
+    color: aqua;
+    margin: 50px 100px;
+}
+.name2 {
+    color: rgb(252, 252, 252);
+    margin: 50px 100px;
+}
+
+.img1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -300px;
+    left: 150px;
+}
+
+.nano {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 520px;
+    height: 350px;
+}
+
+.img2 {
+    width: 520px;
+    height: 350px;
+    margin-top: 400px;
+    margin-left: 100px;
+}
+
+.abm {
+    color: aqua;
+}
+
+.button {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.aboutme{
+    display: flex;
+    margin:70px;
+    position:relative;
+}
+
+.p {
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px 100px 0px;
+}
+
+.aboutme-text {
+    display: flex;
+    flex-direction: column;
+    margin: 200px;
 }
